@@ -31,12 +31,12 @@ At first 20% of the data were splitted for final testing; stratified by the 'Chu
 Several encoding techniques were tested on each categorical feature separately and One-Hot encoding all the categorical features gave the best results.
 
 ### Feature engineering
-Binning 'tenure' feature into 6 ranges:
-    * 0-12 months --> '0-1 years'
-    * 12-24 months --> '1-2 years'
-    * 24-36 months --> '2-3 years'
-    * 36-48 months --> '3-4 years'
-    * 48-60 months --> '4-5 years'
+Binning 'tenure' feature into 6 ranges:\
+    * 0-12 months --> '0-1 years'\
+    * 12-24 months --> '1-2 years'\
+    * 24-36 months --> '2-3 years'\
+    * 36-48 months --> '3-4 years'\
+    * 48-60 months --> '4-5 years'\
     * More than 60 months --> 'more than 5 years'
 
 ### Feature scaling
